@@ -1,7 +1,7 @@
 version: 0.0
 os: windows
 files:
-  - source: \Scripts\*
+  - source: \Scripts\
     destination: C:\temp\HelloWorldApp
   - source: \index.html
     destination: c:\inetpub\wwwroot
