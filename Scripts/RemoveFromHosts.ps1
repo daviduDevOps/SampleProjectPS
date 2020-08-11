@@ -1,5 +1,5 @@
 ﻿# By Tom Chantler - https://tomssl.com/2019/04/30/a-better-way-to-add-and-remove-windows-hosts-file-entries/
-param([string]$Hostname = "tomssl.local")
+param([string]$Hostname = "message.mcafee")
 # Remove entry from hosts file. Removes all entries that match the hostname (i.e. both IPv4 and IPv6).
 #Requires -RunAsAdministrator
 $hostsFilePath = "$($Env:WinDir)\system32\Drivers\etc\hosts"
